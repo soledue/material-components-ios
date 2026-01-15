@@ -1,29 +1,26 @@
-// swift-tools-version: 5.9
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
-  name: "material-components-ios",
-  defaultLocalization: "en",
-  platforms: [.iOS(.v13)],
-  products: [
-    .library(name: "MaterialComponents", targets: ["MaterialComponents"]),
-  ],
-  targets: [
-    .target(
-      name: "MaterialComponents",
-      path: "spm",
-      sources: ["components"],
-      publicHeadersPath: "flat_headers",
-      cSettings: [
-        .headerSearchPath("."),
-        .headerSearchPath("components"),
-        .headerSearchPath("flat_headers"),
-      ],
-      linkerSettings: [
-        .linkedFramework("UIKit"),
-        .linkedFramework("QuartzCore"),
-        .linkedFramework("CoreGraphics"),
-      ]
-    )
-  ]
+    name: "material-components-ios",
+    platforms: [
+        .iOS(.v13)
+    ],
+    products: [
+        .library(
+            name: "MaterialTextFields",
+            targets: ["MaterialTextFields"]
+        )
+    ],
+    targets: [
+        .target(
+            name: "MaterialTextFields",
+            path: "Sources",
+            publicHeadersPath: ".",
+            cSettings: [
+                .define("MDC_TARGET_SPM", to: "1"),
+                .headerSearchPath(".")
+            ]
+        )
+    ]
 )

@@ -1,1 +1,0 @@
-#import "components/ActivityIndicator/src/private/MDCActivityIndicator+Private.h"

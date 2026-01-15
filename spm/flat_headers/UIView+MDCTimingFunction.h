@@ -1,1 +1,0 @@
-#import "components/AnimationTiming/src/UIView+MDCTimingFunction.h"

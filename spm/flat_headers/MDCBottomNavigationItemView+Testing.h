@@ -1,1 +1,0 @@
-#import "components/BottomNavigation/src/private/MDCBottomNavigationItemView+Testing.h"

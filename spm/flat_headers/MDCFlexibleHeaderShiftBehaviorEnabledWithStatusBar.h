@@ -1,1 +1,0 @@
-#import "components/FlexibleHeader/src/ShiftBehaviorEnabledWithStatusBar/MDCFlexibleHeaderShiftBehaviorEnabledWithStatusBar.h"

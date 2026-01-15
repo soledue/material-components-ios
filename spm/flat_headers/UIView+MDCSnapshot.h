@@ -1,1 +1,0 @@
-#import "components/private/Snapshot/src/SnapshotUtilities/UIView+MDCSnapshot.h"

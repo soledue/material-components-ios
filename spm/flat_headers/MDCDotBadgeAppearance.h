@@ -1,1 +1,0 @@
-#import "components/Badges/src/Appearance/MDCDotBadgeAppearance.h"

@@ -1,1 +1,0 @@
-#import "components/Collections/src/private/MaterialCollectionsStrings_table.h"

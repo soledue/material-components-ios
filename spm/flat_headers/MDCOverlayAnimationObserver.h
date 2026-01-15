@@ -1,1 +1,0 @@
-#import "components/private/Overlay/src/private/MDCOverlayAnimationObserver.h"
